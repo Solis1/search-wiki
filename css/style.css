@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+#random{
+    padding-top: 50px;
+    font-size: 50px;
+    display: block;
+    font-family: 'Indie Flower', cursive;
+    color: aliceblue;   
+    text-decoration: none;
+}
+body{
+    background-color: rgb(66,14,7);
+    padding: 0;
+    margin: 0;
+}
+input{
+    text-align: center;
+    border-radius: 10px;
+    background-color: transparent;
+    width: 30%;
+    border-color: black;
+    border-width: 5px;
+    font-size: 30px;
+    transition: width 0.5s, border-color 0.5s ease;
+    color: white;
+    margin-top: 70px;
+}
+input:focus{
+    width: 100%;
+    border-color: cyan; 
+    outline: none;
+}
+input:hover{
+    width: 100%;
+    border-color: coral;
+}
+div{
+    text-align: center;
+}
+span{
+    display: block;
+    padding-top: 50px;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    position:fixed;
+    z-index: -1;
+    background-color: transparent;
+}
+div.element{
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    background-color: rgb(153,107,52);
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+a.page{
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+}
+#footer{
+    font-family: 'Concert One', cursive;
+    color: white;
+    margin-bottom: 30px;
+    font-size: 60px;
+}
+img{
+    float: right;
+    width: 50px;
+    margin: 0px;
+    display: inline;
+}
+h1{
+    display: inline;
+}
