@@ -16,7 +16,8 @@ $(document).ready(function(){
                 results = data.query.pages;
                 
                 $.each(results, function(i, item) {
-                    $("#content").append("<div class='element'><a class='page "+i+"' href='https://en.wikipedia.org/?curid="+i+"'></a></div>")  
+                    console.log(i);
+                    $("#content").append("<div class='element'><a class='page "+i+"' href='https://es.wikipedia.org/?curid="+i+"' target='_blank'></a></div>")  
                     $(".page."+i).append("<h1 class='title'>"+item.title+"</h1>");
                     if(item.hasOwnProperty("thumbnail")){
                         
